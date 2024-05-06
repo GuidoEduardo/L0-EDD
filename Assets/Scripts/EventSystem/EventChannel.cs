@@ -9,9 +9,9 @@ namespace Learn
 
         public void Invoke(T value)
         {
-            foreach(EventListener<T> listener in listeners)
+            Debug.Log($"{this.GetHashCode()} sending message with value {value}.");
+            foreach (EventListener<T> listener in listeners)
             {
-                Debug.Log($"{this.GetHashCode()} | Sent message to {listener.GetHashCode()} with value {value}.");
                 listener.Raise(value);
             }
         }

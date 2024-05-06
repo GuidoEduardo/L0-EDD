@@ -20,7 +20,7 @@ namespace Learn
         
         public void Raise(T value)
         {
-            Debug.Log($"{this.GetHashCode()} | Received event with this value {value}.");
+            Debug.Log($"{this.GetHashCode()} received message with value {value}.");
             response?.Invoke(value);
         }
     }
