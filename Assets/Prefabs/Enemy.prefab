@@ -143,8 +143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 114124fecc794de498a01c03f4311519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealthChannel: {fileID: 11400000, guid: b35dae0f0f6cd9f4e993960d09fb7801, type: 2}
   damage:
-    useConstant: 0
+    useConstant: 1
     constantValue: 10
     variable: {fileID: 11400000, guid: 0a3e5e15bafac404283e6a32a4a7cba7, type: 2}
+  attackEventChannel: {fileID: 11400000, guid: b800d4e8e0037904e973e28e3c0ea03f, type: 2}
